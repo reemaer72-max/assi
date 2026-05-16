@@ -5,8 +5,8 @@ import {
   deleteExpense,
   getExpenses,
   resetExpenses,
-} from "../Features/ExpenseSlice";
-import { getStoredUser } from "../utils/storage";
+} from "../Features/ExpenseSlice.js";
+import { getStoredUser } from "../utils/storage.js";
 
 const ExpenseList = () => {
   const dispatch = useDispatch();

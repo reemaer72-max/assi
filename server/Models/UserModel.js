@@ -21,7 +21,6 @@ const UserSchema = new mongoose.Schema({
     type: String,
   },
 
-  // 💰 ADD THIS
   income: {
     type: Number,
     default: 0,

@@ -4,7 +4,7 @@ import logo from "../Images/logo.jpeg";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../Features/UserSlice";
 import { resetExpenses } from "../Features/ExpenseSlice";
-import { getStoredUser } from "../utils/storage";
+import { getStoredUser } from "../utils/storage.js";
 
 const Header = () => {
   const dispatch = useDispatch();

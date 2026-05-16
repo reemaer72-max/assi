@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
-import { getExpenses, updateExpense } from "../Features/ExpenseSlice";
+import { getExpenses, updateExpense } from "../Features/ExpenseSlice.js";
 
 const EditExpense = () => {
   const { id } = useParams();

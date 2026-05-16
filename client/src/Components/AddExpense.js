@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { addExpense } from "../Features/ExpenseSlice";
+import { addExpense } from "../Features/ExpenseSlice.js";
 import logo from "../Images/logo.jpeg";
 
 export default function AddExpense() {
